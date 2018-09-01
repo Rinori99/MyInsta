@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205244688377",
+    "firebase_url": "https://myinsta-9a719.firebaseio.com",
+    "project_id": "myinsta-9a719",
+    "storage_bucket": "myinsta-9a719.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205244688377:android:5c87ce20eb751681",
+        "android_client_info": {
+          "package_name": "com.example.asus.myinsta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205244688377-gecub3cqkm9suicp36tt2u8efcru6f7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.myinsta",
+            "certificate_hash": "483fdbaf2214e13e25b22cc4e8cb73e83ba14417"
+          }
+        },
+        {
+          "client_id": "205244688377-387u2nktgsrfmt6fo8gocdrh72fmsm54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM75qjQjWlbXyMZZQCzOErirTUEiGD-N8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205244688377-387u2nktgsrfmt6fo8gocdrh72fmsm54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

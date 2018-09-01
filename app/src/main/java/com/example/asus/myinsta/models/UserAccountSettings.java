@@ -1,0 +1,117 @@
+package com.example.asus.myinsta.models;
+
+public class UserAccountSettings {
+    private String description;
+    private String display_name;
+    private long followers;
+    private long following;
+    private long posts;
+    private String profile_phote;
+    private String username;
+    private String website;
+    private String user_id;
+
+    public UserAccountSettings(String description, String display_name, long followers,
+                               long following, long posts, String profile_phote, String username,
+                               String website, String user_id) {
+        this.description = description;
+        this.display_name = display_name;
+        this.followers = followers;
+        this.following = following;
+        this.posts = posts;
+        this.profile_phote = profile_phote;
+        this.username = username;
+        this.website = website;
+        this.user_id = user_id;
+    }
+
+    public UserAccountSettings(){
+
+    }
+
+    public String getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(String user_id) {
+        this.user_id = user_id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDisplay_name() {
+        return display_name;
+    }
+
+    public void setDisplay_name(String display_name) {
+        this.display_name = display_name;
+    }
+
+    public long getFollowers() {
+        return followers;
+    }
+
+    public void setFollowers(long followers) {
+        this.followers = followers;
+    }
+
+    public long getFollowing() {
+        return following;
+    }
+
+    public void setFollowing(long following) {
+        this.following = following;
+    }
+
+    public long getPosts() {
+        return posts;
+    }
+
+    public void setPosts(long posts) {
+        this.posts = posts;
+    }
+
+    public String getProfile_phote() {
+        return profile_phote;
+    }
+
+    public void setProfile_phote(String profile_phote) {
+        this.profile_phote = profile_phote;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    @Override
+    public String toString() {
+        return "UserAccountSettings{" +
+                "description='" + description + '\'' +
+                ", display_name='" + display_name + '\'' +
+                ", followers=" + followers +
+                ", following=" + following +
+                ", posts=" + posts +
+                ", profile_phote='" + profile_phote + '\'' +
+                ", username='" + username + '\'' +
+                ", website='" + website + '\'' +
+                '}';
+    }
+}
